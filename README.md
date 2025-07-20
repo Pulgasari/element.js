@@ -5,7 +5,7 @@ Micro Library to create and manipulate HTML / DOM Elements with JavaScript.
 
 ### Shorthands
 
-If the second parameter is only a string you get some shorthand logic different tags.
+If the second parameter is only a string you get some shorthand logic for different tags.
 
 ```JS
 element('img#logo.logo', 'logo.png');

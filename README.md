@@ -20,3 +20,14 @@ element('script', 'console.log("Hi")');
 element('h2.title', 'Welcome');
 // <h2 class="title">Welcome</h2>
 ```
+
+```
+element('input|text#nameField.large', {
+  placeholder: 'Your name',
+  value: 'Max'
+});
+// <input type="text" id="nameField" class="large" placeholder="Your name" value="Max">
+
+element('button|submit.primary', 'Send');
+// <button type="submit" class="primary">Send</button>
+```

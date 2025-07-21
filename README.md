@@ -202,7 +202,7 @@ element('h2.title', 'Welcome');
 // <h2 class="title">Welcome</h2>
 ```
 
-```
+```JS
 element('input|text#nameField.large', {
   placeholder: 'Your name',
   value: 'Max'
